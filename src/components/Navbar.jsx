@@ -1,9 +1,9 @@
 export default function Navbar() {
     const navItems = [
-        { label: "Acerca de mi", href: "#about" },
-        { label: "Research", href: "#research" },
-        { label: "Projects", href: "#projects" },
-        { label: "Contact", href: "#contact" },
+        { label: "Acerca de mi", href: "/about" }, 
+        { label: "Investigación", href: "/research" },
+        { label: "Proyectos", href: "/projects" },
+        { label: "Contacto", href: "/contact" },
     ];
 
     return (
@@ -11,10 +11,7 @@ export default function Navbar() {
             <div className="mx-auto w-full max-w-[1600px]">
                 <div className="flex flex-col">
                     <div className="flex items-center justify-between px-6 py-3 rounded-full bg-white/5 backdrop-blur-md border border-white/10 shadow-[0_0_25px_rgba(255,255,255,0.08)]">
-                        <a
-                            href="#home"
-                            className="text-sm font-semibold tracking-[0.18em] text-white/90 uppercase transition hover:text-white"
-                        >
+                        <a href="/" className="text-sm font-semibold tracking-[0.18em] text-white/90 uppercase transition hover:text-white">
                             Home
                         </a>
 

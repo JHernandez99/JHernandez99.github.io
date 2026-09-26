@@ -3,15 +3,22 @@ export default function SocialButtons() {
     return (
         <div className="flex justify-center gap-4 mt-10 flex-wrap">
 
-            <button className="flex items-center gap-2 px-6 py-2 rounded-full border border-white/10">
+            <a href="https://github.com/JHernandez99"  target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-2 rounded-full border border-white/10 text-white hover:bg-white/5 transition-colors"
+                >
                 <FaGithub />
-                GitHub
-            </button>
+                <span>GitHub</span>
+            </a>
 
-            <button className="flex items-center gap-2 px-6 py-2 rounded-full border border-white/10">
+            <a 
+                href="https://linkedin.com/in/jhernandez99" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-2 rounded-full border border-white/20 text-white hover:bg-white hover:text-black transition-all duration-300"
+            >
                 <FaLinkedin />
-                LinkedIn
-            </button>
+                <span>LinkedIn</span>
+            </a>
 
         </div>
     );

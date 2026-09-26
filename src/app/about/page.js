@@ -1,24 +1,21 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Projects from "../components/Projects";
-import About from "../components/About"
+import Navbar from "@/components/Navbar";
+
 import BackgroundOrbits from "@/components/BackgroundOrbits"; "../components/BackgroundOrbits"
 import Footer from "@/components/Footer";
 
 
-export default function Home() {
+
+export default function About() {
   return (
     <main className=" relative bg-[#07090D] text-white min-h-screen px-6 md:px-16">
 
 
       {/*<BackgroundOrbits />*/}
       <Navbar />
-      <Hero />
-      {/*<Projects />*/}
-      {/*<About />*/}
+     
+    
       <Footer/>
 
     </main>
   );
 }
-
