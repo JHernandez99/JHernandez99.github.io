@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Hero from "@/app/about/Hero";
 
 import BackgroundOrbits from "@/components/BackgroundOrbits"; "../components/BackgroundOrbits"
 import Footer from "@/components/Footer";
@@ -12,9 +13,10 @@ export default function About() {
 
       {/*<BackgroundOrbits />*/}
       <Navbar />
-     
-    
-      <Footer/>
+      <Hero />
+
+
+      <Footer />
 
     </main>
   );
